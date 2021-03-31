@@ -1,1 +1,1 @@
-# Sistema-de-inform-tica
+# Sistema-de-informática
