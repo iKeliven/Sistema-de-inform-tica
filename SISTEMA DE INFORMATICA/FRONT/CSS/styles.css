@@ -1,0 +1,330 @@
+/* geral*/
+
+body,
+p,
+h1,
+h2,
+h3,
+input,
+textarea {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+h1 {
+    color: #003300;
+    font-size: 2rem;
+    padding-top: 30px;
+    font-weight: 350;
+    text-align: center;
+}
+
+h2 {
+    color: #003300;
+    font-size: 1rem;
+    padding-top: 30px;
+    font-weight: 350;
+    text-align: center;
+}
+
+h2 {
+    color: #003300;
+    font-size: 1rem;
+    padding-top: 30px;
+    font-weight: 400;
+    text-align: left;
+}
+
+body {
+    background-color: #d6c7b6;
+}
+
+
+/*header*/
+
+header {
+    background-color: #6d7e60;
+    padding: 0 15px;
+    height: 60px;
+    position: relative;
+}
+
+header h3 {
+    color: #fff;
+    position: relative;
+    margin-top: 15px;
+    margin-left: auto;
+    fill: none;
+    float: left;
+    font-weight: 300;
+}
+
+
+/*botao comprar e vender */
+
+#compravenda {
+    height: 30vh;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: auto;
+}
+
+#compravenda a {
+    text-decoration: none;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.venda a {
+    padding: 20px;
+    color: #fff;
+    background-color: #003300;
+}
+
+.venda a:hover {
+    border: 1px solid #003300;
+    color: #fff;
+    background-color: #6d7e60;
+}
+
+.compra a {
+    padding: 20px;
+    border: 1px solid #003300;
+    color: #003300;
+    background-color: #fff;
+}
+
+.compra a:hover {
+    color: #fff;
+    background-color: #6d7e60;
+}
+
+
+/*secao selecione opcao*/
+
+#section-conteiner {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    flex-direction: row;
+}
+
+.conteiner-1 {
+    padding: 10px 10px;
+    width: 40%;
+}
+
+.conteiner-2 {
+    padding: 10px 10px;
+    width: 40%;
+}
+
+.conteiner-3 {
+    padding: 10px 10px;
+    width: 40%;
+}
+
+.opcoes a {
+    text-decoration: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    color: #003300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: 1rem;
+}
+
+.opcao a {
+    color: #fff;
+    background-color: #003300;
+}
+
+.opcao a:hover {
+    border: 1px solid #003300;
+    color: #fff;
+    background-color: #6d7e60;
+}
+
+
+/*conteiner menu*/
+
+.conteiner {
+    margin-top: 10px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*area de cadastro */
+
+form {
+    margin-top: 15px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+input,
+textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+#enviar {
+    padding: 20px;
+    color: #fff;
+    background-color: #003300;
+    margin-top: 20px
+}
+
+#enviar:hover {
+    border: 1px solid #003300;
+    color: #fff;
+    background-color: #6d7e60;
+}
+
+
+/*drop down*/
+
+button[name="drop"] {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 15px;
+    color: #003300;
+}
+
+.drop-content {
+    width: 40%;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+}
+
+.drop-content p {
+    color: #003300;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 0.5px solid #6d7e60;
+}
+
+.menu-drop:hover .drop-content {
+    display: block;
+}
+
+.menu-drop:hover button[name="drop"] {
+    background-color: #003300;
+    color: #fff;
+}
+
+.drop-content :hover {
+    border-bottom: 0.5px solid #003300;
+    color: #fff;
+    background-color: #6d7e60;
+}
+
+
+/*botao voltar*/
+
+.voltar a {
+    text-decoration: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid #003300;
+    background-color: #fff;
+    text-align: center;
+    color: #003300;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.voltar a:hover {
+    color: #fff;
+    background-color: #6d7e60;
+}
+
+
+/*área de busca*/
+
+#divBusca {
+    background-color: #fff;
+    border: solid 1px #003300;
+    width: 100%;
+    height: 45px;
+}
+
+#txtBusca {
+    background-color: none;
+    padding-left: 5px;
+    font-size: 12px;
+    border: none;
+    width: 75%;
+    float: left;
+}
+
+#btnBusca {
+    border: none;
+    float: right;
+    height: 45px;
+    width: 25%;
+    font-weight: bold;
+    background: #003300;
+    color: #fff;
+    text-align: center;
+}
+
+#btnBusca:hover {
+    background: #6d7e60;
+}
+
+
+/*tela de vendas*/
+
+#vendedor-cliente {
+    width: 40%;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+#selecione {
+    border: 1px solid #003300;
+    margin-bottom: 20px;
+}
+
+#selecione button {
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#area-busca {
+    width: 99.8%;
+}
+
+#inserir-produto {
+    width: 40%;
+}

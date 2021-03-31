@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href = "https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,300; 0,400; 0,500; 0,700; 1,400; 1,400; 1,500; 1,700 & display = swap" rel = "stylesheet">
+    <title>Suprimentos de Informática</title>
+</head>
+    <body>
+        <main>
+            <header>
+                <h3>Sistema de Suprimentos de Informática</h3>
+            </header>
+            <h1>Cadastro de Cliente!</h1> 
+            <section id="formulario">
+                <form action="funcao_cliente.py" method="post">
+                    <input type="text" name="name_c" placeholder="Nome completo:">
+                    <input type="text" name="cpf_c" placeholder="CPF:">
+                    <input id="nascimento_c" type="date" placeholder="Nascimento">
+                    <input type="tel" id="telefone_c" name="telefone_c" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder= "xx 99999-9999">
+                    <input type="text" name="endereco_c" placeholder="Endereço:">
+                    <input id="enviar" type="submit" value="Enviar">
+                    <div class="voltar"><a href="menu_cliente.html">Voltar</a></div>
+                </form>
+            </section>
+         </main>  
+    </body>
+</html>   
